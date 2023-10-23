@@ -17,7 +17,6 @@ fi
 
 HOURS_TO_KEEP_BACKUPS_FOR="95"  # Delete backups older than this many hours. Comment out or delete to disable.
 STOP_PLEX_DOCKER=true  # Shutdown Plex docker before backup and restart it after backup. Set to "true" (without quotes) to use. Comment out or delete to disable.
-PLEX_DOCKER_NAME="plex"  # Name of Plex docker (needed for 'STOP_PLEX_DOCKER' variable).
 PERMISSIONS="777"  # Set to any 3 or 4 digit value to have chmod set those permissions on the final tar file. Comment out or delete to disable.
 TIMESTAMP() { date +"%Y_%m_%d"; }  # OPTIONALLY customize TIMESTA  MP for sub-directory name.
 COMPLETE_SUBDIR_NAME() { echo "[$(TIMESTAMP)]-PlexDB"; }  # OPTIONALLY customize the complete sub-directory name with the TIMESTAMP.
