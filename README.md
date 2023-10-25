@@ -1,3 +1,18 @@
+# Planned items:
+Finish the Starr Backup script to support Overseerr, Readarr, Bazarr, and Tdarr. If you want something added, let me know in an issue, or a PR.
+
+A main script to run everything, basically inducing a full backup of everything.
+
+I wrote the majority of this in the hopes of putting them all in one place for something like Duplicati to pull, so eventually support for triggering a call.
+
+Better Documentation on everything, a lot of the .env file is self explanetory, but I want to make everything a bit better.
+
+Eventually my own docker container for this, since the environment I use is primarily docker based, it only seems fitting. 
+
+Docker Compose files for maybe even making this setup even easier.
+
+Setup script, make everything way easier to use, instead of manually editing the .env file directly.
+
 # Starr-Scripts
 A collection of scripts for plex and the starr apps.
 
