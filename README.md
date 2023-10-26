@@ -1,5 +1,5 @@
 # Planned items:
-Finish the Starr Backup script to support Overseerr, Readarr, Bazarr, and Tdarr. If you want something added, let me know in an issue, or a PR.
+Finish the Starr Backup script to support Readarr, Bazarr, and Tdarr. If you want something added, let me know in an issue, or a PR.
 
 A main script to run everything, basically inducing a full backup of everything.
 
