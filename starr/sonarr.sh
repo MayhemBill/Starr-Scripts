@@ -28,7 +28,7 @@ echo_ts() { local ms=${EPOCHREALTIME#*.}; printf "[%(%Y_%m_%d)T %(%H:%M:%S)T.${m
 python_executable="$(command -v python3)"
 
 if [[ -z $python_executable ]]; then
-	echo_ts "Fail on python. Aborting."
+  echo_ts "Fail on python. Aborting."
   echo_ts "Install python 3 via your"
   echo_ts "favorite package manager."
 	exit 1

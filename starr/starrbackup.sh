@@ -12,6 +12,7 @@ if [[ $OVERSEERR_ENABLED = true ]]; then source "$(dirname "$BASH_SOURCE")"/over
 if [[ $PROWLARR_ENABLED = true ]]; then source "$(dirname "$BASH_SOURCE")"/prowlarr.sh; fi
 if [[ $RADARR_ENABLED = true ]]; then source "$(dirname "$BASH_SOURCE")"/radarr.sh; fi
 if [[ $SONARR_ENABLED = true ]]; then source "$(dirname "$BASH_SOURCE")"/sonarr.sh; fi
+<<<<<<< HEAD
 
 
 
@@ -20,6 +21,8 @@ if [[ $SONARR_ENABLED = true ]]; then source "$(dirname "$BASH_SOURCE")"/sonarr.
 
 
 
+=======
+>>>>>>> 71d51a1 (added install script to set the environment before anything else)
 
 if [[ $LIDARR_ENABLED = true ]]; then lidarr_notification="\"Lidarr Backup Size\": \"$(ls -lh "$LIDARR_TAR_FILE" | awk '{ print $5 }')\""; else lidarr_notification=""; fi
 if [[ $OVERSEERR_ENABLED = true ]]; then overseerr_notification="\"Overseerr Backup Size\": \"$(ls -lh "$OVERSEERR_TAR_FILE" | awk '{ print $5 }')\""; else overseerr_notification=""; fi
