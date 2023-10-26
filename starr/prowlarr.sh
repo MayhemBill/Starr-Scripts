@@ -17,7 +17,7 @@ PROWLARR_TARFILE_TEXT="Prowlarr-Backup"
 TIMESTAMP() { date +"%Y_%m_%d"; }
 COMPLETE_PROWLARR_TARFILE_NAME() { echo "[$(TIMESTAMP)] $PROWLARR_TARFILE_TEXT.tar"; }
 PROWLARR_TAR_COMMAND() {
-    tar -cf "$PROWLARR_TAR_FILE" "MediaCover" "prowlarr.db" "config.xml"
+    tar -cf "$PROWLARR_TAR_FILE" "prowlarr.db" "config.xml"
 }
 #########################################################
 ################## END OF USER CONFIG ###################
