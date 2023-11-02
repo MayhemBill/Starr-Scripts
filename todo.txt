@@ -1,0 +1,7 @@
+Finish setup scripts, add prowlarr settings, (I won't add trackers, that'll be the manual stuff at the end).
+
+create docker containers
+
+add health checks to docker containers
+
+add maintenance scripts via cron.
